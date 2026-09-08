@@ -1,0 +1,111 @@
+Attack,Budget,Success,Actual_Perturbation,Time_Sec
+HotFlip,1,False,1,0.45301365852355957
+HotFlip,2,True,2,0.7203092575073242
+HotFlip,3,True,2,0.6221754550933838
+HotFlip,5,True,2,0.6227092742919922
+HotFlip,8,True,2,0.6067287921905518
+Synonym Substitution,1,False,0,0.6630954742431641
+Synonym Substitution,2,False,1,0.7447760105133057
+Synonym Substitution,3,False,1,0.7388482093811035
+Synonym Substitution,5,False,2,1.1055192947387695
+Synonym Substitution,8,False,3,1.739013671875
+Synonym Substitution,10,False,3,1.9325518608093262
+HotFlip,1,False,1,0.7752084732055664
+HotFlip,2,False,2,1.382082223892212
+HotFlip,3,False,3,1.5886061191558838
+HotFlip,5,False,5,2.8771612644195557
+HotFlip,8,False,8,4.1660380363464355
+Synonym Substitution,1,False,1,1.0434348583221436
+Synonym Substitution,2,False,2,1.2593400478363037
+Synonym Substitution,3,False,3,1.290438175201416
+Synonym Substitution,5,False,3,1.6768317222595215
+Synonym Substitution,8,True,5,2.0204553604125977
+Synonym Substitution,10,True,5,2.1683225631713867
+HotFlip,1,False,1,0.5714116096496582
+HotFlip,2,True,2,1.171285629272461
+HotFlip,3,True,2,1.1757087707519531
+HotFlip,5,True,2,1.2370381355285645
+HotFlip,8,True,2,1.101611614227295
+Synonym Substitution,1,False,1,1.3662259578704834
+Synonym Substitution,2,False,2,1.7014856338500977
+Synonym Substitution,3,False,3,1.6319987773895264
+Synonym Substitution,5,False,4,1.7290961742401123
+Synonym Substitution,8,True,5,2.189365863800049
+Synonym Substitution,10,True,5,2.387284278869629
+HotFlip,1,False,1,0.38421201705932617
+HotFlip,2,True,2,0.7504158020019531
+HotFlip,3,True,2,0.6883707046508789
+HotFlip,5,True,2,0.6560649871826172
+HotFlip,8,True,2,0.8368098735809326
+Synonym Substitution,1,False,1,0.7061338424682617
+Synonym Substitution,2,False,1,0.7094483375549316
+Synonym Substitution,3,False,1,0.7688465118408203
+Synonym Substitution,5,False,1,0.8782024383544922
+Synonym Substitution,8,False,3,1.6064109802246094
+Synonym Substitution,10,True,4,1.6354146003723145
+HotFlip,1,False,1,0.5554141998291016
+HotFlip,2,False,2,1.2231841087341309
+HotFlip,3,False,3,1.8501911163330078
+HotFlip,5,True,4,2.296254873275757
+HotFlip,8,True,4,2.1666393280029297
+Synonym Substitution,1,False,1,0.9695107936859131
+Synonym Substitution,2,False,2,1.1890790462493896
+Synonym Substitution,3,False,3,1.910067081451416
+Synonym Substitution,5,False,4,2.5118064880371094
+Synonym Substitution,8,False,6,3.300100088119507
+Synonym Substitution,10,True,7,4.484208106994629
+HotFlip,1,True,1,0.2615535259246826
+HotFlip,2,True,1,0.27808523178100586
+HotFlip,3,True,1,0.2919735908508301
+HotFlip,5,True,1,0.2886626720428467
+HotFlip,8,True,1,0.30373239517211914
+Synonym Substitution,1,False,1,0.6278142929077148
+Synonym Substitution,2,False,1,0.5579838752746582
+Synonym Substitution,3,True,2,0.8350942134857178
+Synonym Substitution,5,True,2,0.8835153579711914
+Synonym Substitution,8,True,2,0.879504919052124
+Synonym Substitution,10,True,2,0.8990733623504639
+HotFlip,1,False,1,0.3920903205871582
+HotFlip,2,True,2,0.720604419708252
+HotFlip,3,True,2,0.7125377655029297
+HotFlip,5,True,2,0.7549951076507568
+HotFlip,8,True,2,0.7424068450927734
+Synonym Substitution,1,False,1,0.5423753261566162
+Synonym Substitution,2,False,1,0.6852409839630127
+Synonym Substitution,3,False,1,1.048828363418579
+Synonym Substitution,5,True,2,1.3785812854766846
+Synonym Substitution,8,True,2,1.1860580444335938
+Synonym Substitution,10,True,2,1.2343976497650146
+HotFlip,1,True,1,0.6360971927642822
+HotFlip,2,True,1,0.622509241104126
+HotFlip,3,True,1,0.6477169990539551
+HotFlip,5,True,1,0.5878033638000488
+HotFlip,8,True,1,0.5779824256896973
+Synonym Substitution,1,True,1,1.171391487121582
+Synonym Substitution,2,True,1,1.1023271083831787
+Synonym Substitution,3,True,1,1.002216100692749
+Synonym Substitution,5,True,1,1.0407259464263916
+Synonym Substitution,8,True,1,1.0845189094543457
+Synonym Substitution,10,True,1,0.9416024684906006
+HotFlip,1,False,1,0.804877519607544
+HotFlip,2,False,2,1.823274850845337
+HotFlip,3,False,3,2.7112340927124023
+HotFlip,5,True,5,3.979304075241089
+HotFlip,8,True,5,4.229204893112183
+Synonym Substitution,1,False,0,1.6724977493286133
+Synonym Substitution,2,False,1,1.9521210193634033
+Synonym Substitution,3,False,2,2.5517940521240234
+Synonym Substitution,5,False,2,2.5233566761016846
+Synonym Substitution,8,False,4,4.113699197769165
+Synonym Substitution,10,False,5,4.622235059738159
+HotFlip,1,False,1,0.5028069019317627
+HotFlip,2,True,2,1.1966373920440674
+HotFlip,3,True,2,1.2598035335540771
+HotFlip,5,True,2,1.161268949508667
+HotFlip,8,True,2,1.070349931716919
+Synonym Substitution,1,False,1,1.0019028186798096
+Synonym Substitution,2,False,2,1.2354955673217773
+Synonym Substitution,3,False,2,1.3404431343078613
+Synonym Substitution,5,False,4,2.131566047668457
+Synonym Substitution,8,True,7,3.481212854385376
+Synonym Substitution,10,True,7,3.6742255687713623
