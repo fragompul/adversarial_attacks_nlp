@@ -9,39 +9,20 @@
 
 ## 📖 Project Overview
 
-Transformer-based language models achieve near-human performance on sentiment analysis, natural
-language inference, and text classification. They share a critical vulnerability with their vision
-counterparts: small, often human-imperceptible or fluency-preserving changes to the input text can
-flip a prediction with high confidence. Unlike images, text is **discrete**: there is no continuous
-gradient you can walk along pixel-by-pixel, so every attack here has to solve a fundamentally
-different search problem than `FGSM`/`PGD` do in the vision repo, word substitution, character
-flips, and gradient-guided discrete search, rather than a continuous perturbation.
+Transformer-based language models achieve near-human performance on sentiment analysis, natural language inference, and text classification. They share a critical vulnerability with their vision counterparts: small, often human-imperceptible or fluency-preserving changes to the input text can flip a prediction with high confidence. Unlike images, text is **discrete**: there is no continuous gradient you can walk along pixel-by-pixel, so every attack here has to solve a fundamentally different search problem than `FGSM`/`PGD` do in the vision repo, word substitution, character flips, and gradient-guided discrete search, rather than a continuous perturbation.
 
 **Origin & Scope:**
-This is the sibling repository to my Bachelor's Thesis project on adversarial vision, extending the
-same rigor (hand-derived math, from-scratch implementations, quantitative robustness evaluation) to
-the text domain. The two repos share a research philosophy but not a codebase: NLP attacks need a
-different toolchain (PyTorch, Hugging Face Transformers, discrete combinatorial search) from the
-TensorFlow/Keras stack used for vision.
+This is the sibling repository to my Bachelor's Thesis project on adversarial vision, extending the same rigor (hand-derived math, from-scratch implementations, quantitative robustness evaluation) to the text domain. The two repos share a research philosophy but not a codebase: NLP attacks need a different toolchain (PyTorch, Hugging Face Transformers, discrete combinatorial search) from the TensorFlow/Keras stack used for vision.
 
 ---
 
 ## ✨ Key Features & Research Areas
 
-1. **White-Box Attack:** Gradient-guided word substitution (**HotFlip**, Ebrahimi et al., 2018),
-   implemented from scratch against the embedding layer's gradient, the discrete-input analogue of
-   `attacks/whitebox/01_FGSM.ipynb` in the vision repo.
-2. **Black-Box Attack:** Word-importance-ranked WordNet synonym substitution in the style of
-   TextFooler/PWWS, a query-only attack that never touches a gradient, mirroring
-   `attacks/blackbox/01_SquareAttack.ipynb`'s threat model.
-3. **Quantitative Robustness Analytics:** Attack Success Rate, percentage of words changed (the text
-   analogue of an L2 distortion), and query cost, measured on a real sample of SST-2 validation
-   sentences rather than a hand-picked few.
-4. **Defenses:** Adversarial data augmentation, fine-tuning on HotFlip-generated examples labeled
-   with their true class, the text analogue of the vision repo's PGD-AT/TRADES notebook.
-5. **Embedding Space Topology:** PCA of DistilBERT sentence embeddings, tracking how HotFlip's word
-   substitutions move a sentence across the classifier's decision boundary, the text analogue of
-   `latent_space/` in the vision repo.
+1. **White-Box Attack:** Gradient-guided word substitution (**HotFlip**, Ebrahimi et al., 2018), implemented from scratch against the embedding layer's gradient, the discrete-input analogue of `attacks/whitebox/01_FGSM.ipynb` in the vision repo.
+2. **Black-Box Attack:** Word-importance-ranked WordNet synonym substitution in the style of TextFooler/PWWS, a query-only attack that never touches a gradient, mirroring `attacks/blackbox/01_SquareAttack.ipynb`'s threat model.
+3. **Quantitative Robustness Analytics:** Attack Success Rate, percentage of words changed (the text analogue of an L2 distortion), and query cost, measured on a real sample of SST-2 validation sentences rather than a hand-picked few.
+4. **Defenses:** Adversarial data augmentation, fine-tuning on HotFlip-generated examples labeled with their true class, the text analogue of the vision repo's PGD-AT/TRADES notebook.
+5. **Embedding Space Topology:** PCA of DistilBERT sentence embeddings, tracking how HotFlip's word substitutions move a sentence across the classifier's decision boundary, the text analogue of `latent_space/` in the vision repo.
 
 ---
 
